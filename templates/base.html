@@ -18,7 +18,12 @@
 </head>
 <body>
     {% include 'includes/header.html' %}
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
     
-    <h1>Hello Iam bonkers!</h1>
+    {% include 'includes/footer.html' %}
 </body>
 </html>

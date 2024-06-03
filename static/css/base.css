@@ -41,6 +41,17 @@ main {
 
 footer {
     flex-shrink: 0;
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: var(--border);
+}
+
+.social-icon {
+    height: 2rem;
+    margin: 1rem;
 }
 
 /* Header */
@@ -56,4 +67,3 @@ a.nav-link {
 img.logo {
     width: 18.75rem;
 }
-
